@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "title": "YOUR META TITLE — max 60 chars, include primary keyword",
+    "description": "Your meta description — 140 to 160 characters, written to earn a click. Describe the page's value clearly.",
+    "canonical": "https://bullattorneys.com/blogs/YOUR-SLUG-HERE/",
+    "datePublished": "2026-07-15T00:00:00-05:00",
+    "dateModified": "2026-07-15T00:00:00-05:00"
+  },
+  "hero": {
+    "date": "JULY 15, 2026",
+    "title": "Your Full H1 Headline — Can Be Longer Than the Meta Title"
+  },
+  "authorSection": {
+    "hasAuthorSection": true,
+    "author": {
+      "name": "Bradley A. Pistotnik (Trial Lawyer)",
+      "bio": "Brad Pistotnik is the CEO of Bull Attorneys®, P.A. and a Kansas trucking and personal injury lawyer with over 45 years of experience. He focuses on serious injury and truck accident cases involving DOT regulations and commercial vehicle safety standards.",
+      "profileLink": "/attorneys/brad-a-pistotnik/",
+      "profileText": "View Brad's Full Profile"
+    },
+    "lastReviewed": "Page last reviewed: 07/15/2026 by"
+  },
+  "schema": {
+    "headline": "Your Full H1 Headline — same as hero.title",
+    "description": "Your meta description — same as metadata.description",
+    "image": ["https://bullattorneys.com/icons/blogs/FILENAME.png"],
+    "author": { "@id": "https://bullattorneys.com/attorneys/brad-a-pistotnik/#person" },
+    "localBusiness": [
+      "https://bullattorneys.com/locations/wichita/#localbusiness",
+      "https://bullattorneys.com/locations/garden-city/#localbusiness"
+    ],
+    "articleSection": ["Car Accidents", "Kansas Law", "Add More Topic Tags"],
+    "keywords": [
+      "primary keyword phrase",
+      "secondary keyword phrase",
+      "another long-tail keyword",
+      "add 5 to 10 total"
+    ],
+    "about": [
+      { "@type": "Thing", "name": "Main Topic" },
+      { "@type": "Thing", "name": "Secondary Topic" }
+    ],
+    "articleBody": "A plain-text 2 to 4 sentence summary of the article. No HTML. This is used for schema markup only and is not shown to readers."
+  },
+  "content": {
+    "featuredImage": {
+      "src": "/icons/blogs/LEAVE-BLANK-DEV-TEAM-FILLS-THIS.png",
+      "alt": "Descriptive alt text for the featured image — you write this"
+    },
+    "practiceAreaButtons": {
+      "car": {
+        "text": "Kansas Car Accident Legal Help",
+        "url": "/practice-areas/car-accidents/"
+      }
+    },
+    "sections": [
+      {
+        "heading": "",
+        "intro": [
+          "Optional introductory paragraph before the first question. If not needed, leave intro as an empty array and remove this string."
+        ],
+        "items": []
+      },
+      {
+        "heading": "First question as a heading?",
+        "intro": [
+          "Answer paragraph one.",
+          "Answer paragraph two — each paragraph is a separate string in this array."
+        ],
+        "items": []
+      },
+      {
+        "heading": "Second question as a heading?",
+        "intro": [
+          "Answer paragraph."
+        ],
+        "items": []
+      },
+      {
+        "heading": "A question whose answer includes a bullet list?",
+        "intro": [
+          "Introductory sentence before the list:"
+        ],
+        "items": [
+          "First bullet point",
+          "Second bullet point",
+          "Third bullet point"
+        ]
+      }
+    ]
+  },
+  "postCtaContact": {
+    "heading": "Call Bull Attorneys 24/7 From Anywhere in Kansas",
+    "intro": "Bull Attorneys, P.A. answers calls 24 hours a day, 7 days a week, including holidays, and handles car, truck, motorcycle, and personal injury cases across Kansas from offices in Wichita and Garden City.",
+    "offices": [
+      {
+        "label": "Wichita office:",
+        "address": "10111 E. 21st St. N #204, Wichita, KS 67206",
+        "addressUrl": "https://maps.app.goo.gl/s9AqD2KyrMEUXWZs6",
+        "phoneLabel": "Main phone:",
+        "phone": "316-684-4400",
+        "phoneTel": "+13166844400"
+      },
+      {
+        "label": "Garden City office:",
+        "address": "3102 E Kansas Ave #100, Garden City, KS 67846",
+        "addressUrl": "https://maps.app.goo.gl/LxBMCEaMGbN3vy6P7",
+        "phoneLabel": "Phone:",
+        "phone": "620-843-2855",
+        "phoneTel": "+16208432855"
+      }
+    ]
+  },
+  "legalDisclaimer": {
+    "heading": "Legal Advertising Disclaimer",
+    "text": "This blog provides general information only, not legal advice. Reading it does not create an attorney-client relationship. Every case is different. Results vary depending on each case's facts and legal circumstances. Deadlines and laws can change, so speak directly with an attorney about your accident."
+  }
+}
